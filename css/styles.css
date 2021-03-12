@@ -485,11 +485,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: calc(100% / 6 - 30px);
-
 }
 
-.client-item {
+.client-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -498,16 +496,26 @@ img {
     border-radius: 4px;
     width: 170px;
     height: 90px;
-    
+    color: #AFB1B8;
+    cursor: pointer;
 }
 
 .client-link {
     display: flex;
 }
 
+.client {
+    fill: currentColor;
+}
+
+.client:hover,
+.client:focus {
+    fill: var(--accent-color);
+}
+
 .client-link:hover,
 .client-link:focus {
-    color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* ============= end clients ============= */
@@ -565,7 +573,7 @@ img {
     display: flex;
 }
 
-.footer-box-2 {
+.footer-box-second {
     display: flex;
     flex-direction: column;
     width: 206px;
@@ -622,11 +630,6 @@ img {
     fill: currentColor;
 
 }
-
-
-
-
-
 
 /* ============= end footer ============= */
 
