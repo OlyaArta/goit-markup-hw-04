@@ -335,6 +335,8 @@ img {
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
+
+    border-radius: 4px;
 }
 
 /* ============= end skills ============= */
@@ -361,11 +363,16 @@ img {
     margin-right: 30px;
 }
 
+.activities {
+    padding-bottom: 94px;
+}
+
 /* ============= end what we do ============= */
 /* ============= our team ============= */
 
 .team-section {
     background-color: #F5F4FA;
+
 }
 
 .team-list {
@@ -649,7 +656,6 @@ img {
 
 .menu-item {
     min-width: 73px;
-    border-radius: 4px;
     background-color: #F5F4FA;
 }
 
@@ -657,6 +663,8 @@ img {
 .menu-btn:focus {
     background-color: var(--accent-color);
     color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .menu-item:not(:last-child) {
@@ -675,6 +683,8 @@ img {
     padding: 6px 22px;
 
     color: #212121;
+    border: none;
+    border-radius: 4px;
 }
 
 .menu-link:hover,
