@@ -500,16 +500,12 @@ img {
     cursor: pointer;
 }
 
-.client-link {
-    display: flex;
-}
-
 .client {
     fill: currentColor;
 }
 
-.client:hover,
-.client:focus {
+.client-link:hover .client,
+.client-link:focus .client {
     fill: var(--accent-color);
 }
 
